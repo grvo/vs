@@ -1,0 +1,11 @@
+# leia mais sobre a sintaxe aqui:
+# https://docs.github.com/en/early-access/github/save-time-with-slash-commands/syntax-for-user-defined-slash-commands
+---
+trigger: codespaces_issue
+title: erro de codespaces
+description: reportar downstream
+
+steps:
+  - type: fill
+    template: |-
+      isso se parece com um erro dos serviços dos codespaces que não captura nesse repositório. você pode reportar isso para o time dos codespaces em https://github.com/orgs/community/discussions/categories/codespaces
